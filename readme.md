@@ -32,15 +32,6 @@ php artisan serve --host 0.0.0.0
 http://localhost:8000
 ```
 
-### Error Issue
-```sh
-#make g++ command not found
-sudo yum install gcc-c++
-
-#gulp-notify: [Error in notifier] Error in plugin 'gulp-notify'
-sudo yum install libnotify
-```
-
 ### Writer
 + [richellin](http://richellin.github.io)
 + [jongguheo](https://github.com/orgs/purppo/people/jongguheo)
