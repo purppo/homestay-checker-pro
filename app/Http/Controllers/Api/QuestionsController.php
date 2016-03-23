@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 class QuestionsController extends Controller
 {
@@ -20,9 +21,9 @@ class QuestionsController extends Controller
        $list = array();      
        
        $list[] = array(
-                    'no'=>1,
-                    'q'=>'외국인을 대상으로 민박업을 하시겠습니까?'
-                    );
+     		               'no'=>1,
+                	       'q'=>'외국인을 대상으로 민박업을 하시겠습니까?'
+                    		);
       
        $list[] = array(
        				'no'=>2,

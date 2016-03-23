@@ -40,6 +40,7 @@ Route::group(['domain' => config('project.api_domain'), 'as' => 'api.', 'namespa
     });
    
 });
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
