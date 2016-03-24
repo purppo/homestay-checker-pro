@@ -16,6 +16,7 @@ git clone https://github.com/purppo/homestay-checker.git
 
 #Laravel Setting
 composer install
+php artisan key:generate
 
 #Install package.json 
 npm install
