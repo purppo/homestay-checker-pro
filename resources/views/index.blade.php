@@ -19,6 +19,15 @@
 body {
   background-color: #D4D4D4;
 }
+
+ol li.list-group-item { 
+    list-style: decimal inside;
+    display: list-item;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #FFF9C4;
+}
 </style>
 
 </head>
@@ -29,25 +38,11 @@ body {
         <div class="topbanner"></div>
       </div>
       <hr/>
-      <div class="row">
-        <form>
-        <div class="text-center">
-          <ol>
-            <li>질문. OOO 하고 계십니까?  <label class="radio-inline"><input type="radio" name="q2"> Yes </label> <label class="radio-inline"><input type="radio" name="q2"> No </label> </li>
-            <li>질문. OOO 하고 계십니까?  <label class="radio-inline"><input type="radio" name="q3"> Yes </label> <label class="radio-inline"><input type="radio" name="q3"> No </label> </li>
-            <li>질문. OOO 하고 계십니까?  <label class="radio-inline"><input type="radio" name="q4"> Yes </label> <label class="radio-inline"><input type="radio" name="q4"> No </label> </li>
-            <li>질문. OOO 하고 계십니까?  <label class="radio-inline"><input type="radio" name="q5"> Yes </label> <label class="radio-inline"><input type="radio" name="q5"> No </label> </li>
-          </ol>
+      
+      <div class="container">
+          <div class="table-responsive" id="content">
         </div>
       </div>
-    
-      <div class="row">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4"><button type="button" class="btn btn-primary-outline btn-lg btn-block">Check</button></div>
-        <div class="col-xs-4"></div>
-      </div>
-      </form>
-      <hr>
       <div class="row">
           <div class="col-xs-12">
               <footer>
@@ -58,7 +53,6 @@ body {
           </div>
       </div>
     </div>
-    <div id="content"></div>
     <script src="{{ elixir('js/app.js') }}"></script>
 </body>
 </html>
